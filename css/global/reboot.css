@@ -19,3 +19,17 @@ a {
   color: #475009;
   text-decoration: none;
 }
+
+.btn-reset {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
