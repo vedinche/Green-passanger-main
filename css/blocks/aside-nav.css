@@ -1,0 +1,34 @@
+.aside-nav {
+  border-radius: 20px;
+  padding: 20px;
+  background: #f4f6fa;
+}
+
+.aside-nav__title {
+  margin: 0 0 25px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #475009;
+}
+
+.aside-nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.aside-nav__link {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.aside-nav__text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #475009;
+}

@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   align-items: center;
+  margin: 0 0 60px 0;
   padding: 105px 0;
   min-height: calc(100vh - 127px);
   background: rgba(222, 236, 221, 0.8);
@@ -37,7 +38,3 @@
 .hero__gallery-item--size-xl {
   grid-row: span 2;
 }
-
-.hero__gallery-item {}
-
-.hero__gallery-img {}
