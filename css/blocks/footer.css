@@ -1,0 +1,75 @@
+.footer {
+  padding: 40px 0 20px 0;
+  box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.25);
+  ;
+}
+
+.footer__wrapper {
+  display: grid;
+  grid-template-columns: 202px 1fr 202px;
+  align-items: center;
+  /* расположения среднего элемента строго по центру */
+  gap: 20px;
+  margin: 0 0 40px 0;
+  /* Безопасные отступы */
+}
+
+.footer__logo {
+  display: flex;
+  padding: 0 0 25px 0;
+}
+
+.footer__social {
+  margin: 0 0 0 20px;
+}
+
+.footer__nav-list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px 50px;
+  justify-content: center;
+}
+
+.footer__nav-link {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__contact {
+  display: grid;
+  align-items: flex-end;
+}
+
+.footer__contact-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #475009;
+}
+
+.footer__contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #475009;
+}
